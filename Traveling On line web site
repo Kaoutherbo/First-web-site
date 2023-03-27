@@ -1,0 +1,94 @@
+<!--html--!> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="./style 18.css">
+</head>
+<body>
+    <header> 
+    <h1 class="intro"><i><b>T</b>raveling<br><b>O</b>n <b>L</b>ine</i></h1>
+    <br><br>
+    <br><br>
+    <br><br>
+    <p class="intro1"style="center">
+     <i>Conecting the world while<br>protecting planet and people</i>
+    </p>
+        <nav>
+            <a href="#">Home</a>&nbsp;<a href="#">About</a>
+        </nav>
+    </header>  
+<form>
+    <label for=""></label>
+    <input type="text" class="search" placeholder="Type to search">
+    <br><br>
+</form>
+<br>
+    <div class="gird">
+        <div class="gird-item">
+            <div class="card">
+                <img class="card-img" src="C:/Users/hbunited/Downloads/passagens-aereas-roma-capa2019-01.jpg" alt="Rome">
+                <div class="card-content">
+                    <h1 class="card-header">Rome</h1>
+                    <p class="card-text">
+Rome is known for its stunning <strong>architecture</strong>,with the colleseum,Pantheon ,and Trevi Fountain as the main attractions.
+                    </p>
+                    <botton class="card-btn"><a href="https://youtu.be/DEJx0CYrDHk">Discover Now</a><span>&rarr;</span>
+                    </botton>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gird">
+        <div class="gird-item">
+            <div class="card">
+                <img class="card-img" src="C:/Users/hbunited/Downloads/akm_1354x866maldive.jpg" alt="Paris">
+                <div class="card-content">
+                    <h1 class="card-header">Maldives</h1>
+                    <p class="card-text">
+The Maldives are known for their <strong>natural environment</strong> including the blue ocean,white beaches,and clean air,attracting tourists.
+                    </p>
+                    <botton class="card-btn">
+                        <a href="https://youtu.be/QZu4XZMWNqA">Discover Now</a><span>&rarr;</span>
+                    </botton>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gird">
+        <div class="gird-item">
+            <div class="card">
+                <img class="card-img" src="C:/Users/hbunited/Downloads/ee893f00-c31d-11e8-9739-0242ac110006newyork.jpg" alt="NewYork">
+                <div class="card-content">
+                    <h1 class="card-header">NewYork</h1>
+                    <p class="card-text">
+New York is known for its <strong>towering skyscraperq,famous districts,and endless energy,</strong>its nature including thousand Island.
+                    </p>
+                    <botton class="card-btn">
+                        <a href="https://youtu.be/E6fefQGxg7g">Discover Now</a><span>&rarr;</span>
+                    </botton>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gird">
+        <div class="gird-item">
+            <div class="card">
+                <img class="card-img" src="C:/Users/hbunited/Downloads/sahara.jpg" alt="Sahara">
+                <div class="card-content">
+                    <h1 class="card-header">Sahara Algeria</h1>
+                    <p class="card-text">
+With over 80% of land occupied by the Sahara Desert,<br>
+ Algeria is a country for <strong> the true adventurer.</strong>
+                    </p>
+                    <botton class="card-btn"><a href="https://youtu.be/0cpc9grqhMQ">Discover Now</a><span>&rarr;</span>
+                    </botton>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
