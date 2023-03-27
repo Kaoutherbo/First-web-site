@@ -1,0 +1,138 @@
+<!--css--!> 
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+} 
+i{
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+}
+b{
+color: rgb(94, 57, 231);
+font-weight: bold;
+}
+body{
+    background-image: url("C:/Users/hbunited/Downloads/bsr-travel-hero.travel.jpg");
+    background-size: cover;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    min-height: 130vh;
+}
+.intro{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+    color: aliceblue;
+    position:absolute;
+    text-align: left;
+    top: 20px;
+}
+.intro1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+    position:absolute;
+    color: rgb(37, 2, 37);
+    top: 100px;
+    right: 300px;
+}
+header nav{
+display: flex;
+justify-content:center;
+align-items:center;
+position: absolute;
+top: 70px;
+right: 100px;
+}
+a{
+font-size: 30px;
+color: floralwhite;
+font-family: Arial;
+transition: 0.4s ease-in-out;
+}
+a:hover{
+color: rgb(33, 40, 134);
+}
+.search{
+  width: 400px;
+  height: 15px;
+  padding: 10px;
+  position: absolute;
+  top: 40px;
+  left: 450px;
+background-color: rgba(255,255,255,0.5);
+}
+
+.gird{
+    display: grid;
+    width: 114em;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    align-items: start;
+}
+.gird-item{
+    background-color: #fff;
+    border-radius: 0.4rem;
+overflow: hidden;
+box-shadow: 0 3rem 6rem rgb(0,0,0,0.1);
+cursor: pointer;
+transition: 0.2s;
+}
+.gird-item:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rbga(0,0,0,0.5);
+}
+.card-img{
+    display:block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.card-content{
+    padding: 3rem;  
+}
+.card-header{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+}
+.card-text{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 2.5rem;
+}
+.card-btn{
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #3363ff;
+    background-color: #310c86;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+.card-btn span{
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+.card-btn:hover,
+.card-btn:active{
+    background-color: #c2cffc;
+}
+.card-btn:hover span
+.card-btn:active span{
+    margin-left: 1.5rem;
+}
